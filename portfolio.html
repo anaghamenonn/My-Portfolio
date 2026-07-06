@@ -245,7 +245,7 @@ footer .fmeta{font-family:var(--mono);font-size:11px;color:var(--text-3);}
     <p class="hero-sub">Anagha P H — full stack software engineer specializing in backend architecture, secure systems and AI-integrated products, with 2.5+ years shipping enterprise-grade platforms.</p>
     <div class="hero-cta">
       <a class="btn primary magnetic" href="#projects">View projects</a>
-      <a class="btn magnetic" href="assets/Anagha_PH.pdf" target="_blank"> Download Resume</a>
+      <a class="btn magnetic" href="assets/ANAGHA_PH.pdf" target="_blank"> Download Resume</a>
       <a class="btn magnetic" href="#contact">Get in touch</a>
     </div>
   </div>
@@ -347,10 +347,25 @@ footer .fmeta{font-family:var(--mono);font-size:11px;color:var(--text-3);}
     <h2>Let's build something<br><em>worth shipping.</em></h2>
     <p>Open to senior engineering roles. Reach out directly or connect below.</p>
     <div class="hero-cta" style="justify-content:center;">
-      <a class="btn magnetic" href="#" onclick="return false;">Email me</a>
-      <a class="btn ghost magnetic" href="#" onclick="return false;">LinkedIn</a>
-      <a class="btn ghost magnetic" href="#" onclick="return false;">GitHub</a>
-    </div>
+  <a class="btn magnetic"
+     href="mailto:anaghamenon7377@gmail.com">
+     Email Me
+  </a>
+
+  <a class="btn ghost magnetic"
+     href="https://www.linkedin.com/in/anaghamenonn/"
+     target="_blank"
+     rel="noopener noreferrer">
+     LinkedIn
+  </a>
+
+  <a class="btn ghost magnetic"
+     href="https://github.com/anaghamenonn"
+     target="_blank"
+     rel="noopener noreferrer">
+     GitHub
+  </a>
+</div>
   </div>
 </section>
 
@@ -496,9 +511,29 @@ setInterval(()=>{
 
 /* experience */
 const jobs=[
-  {yr:'Oct 2024 — Present',role:'Software Engineer',co:'Deep Trace Cybernetics',desc:'Building enterprise cybersecurity products end to end — multi-tenant SaaS architecture, secure API design, and AI-assisted features across ALPHISH and ALSEC.',tags:['FastAPI','React','MongoDB','RBAC']},
-  {yr:'May 2024 — Oct 2024',role:'Software Engineer',co:'Zolute Technologies',desc:'Full stack development across internal tools and client products — authentication systems, dashboard applications, and REST API design.',tags:['Node.js','PostgreSQL','JWT']},
-  {yr:'Jul 2023 — Jan 2023',role:'Software Engineer',co:'SMEC Labs',desc:'Started as a full stack developer building web applications with Python and JavaScript, establishing the foundation in backend architecture.',tags:['Python','Django','JavaScript']},
+  {
+    yr:'Oct 2024 — Present',
+    role:'Software Engineer',
+    co:'Deep Trace Cybernetics',
+    desc:'Designing and developing enterprise-grade cybersecurity applications with a focus on scalable backend architecture, secure authentication systems, RESTful APIs, and AI-powered features. Collaborating across the full software development lifecycle to deliver high-performance, multi-tenant solutions while ensuring security, reliability, and maintainability.',
+    tags:['FastAPI','React','MongoDB','RBAC']
+  },
+
+  {
+    yr:'May 2024 — Oct 2024',
+    role:'Software Engineer',
+    co:'Zolute Technologies',
+    desc:'Developed full-stack web applications by building responsive user interfaces, designing scalable backend services, and integrating secure APIs. Worked closely with cross-functional teams to deliver business solutions, optimize application performance, and implement modern authentication and database-driven features.',
+    tags:['Node.js','PostgreSQL','JWT']
+  },
+
+  {
+    yr:'Jan 2023 — Jul 2023',
+    role:'Software Engineer',
+    co:'SMEC Labs',
+    desc:'Built dynamic web applications using Python and JavaScript while strengthening core software engineering skills. Contributed to backend development, database design, REST API implementation, and responsive frontend development, gaining hands-on experience across the complete development lifecycle.',
+    tags:['Python','Django','JavaScript']
+  },
 ];
 const expList=document.getElementById('exp-list');
 jobs.forEach(j=>{
